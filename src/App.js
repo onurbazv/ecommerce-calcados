@@ -1,10 +1,10 @@
 import { useState } from "react";
+import { Routes, Route, Link } from 'react-router-dom'
 import ModalContext from "./context/ModalContext";
-import ProductListing from "./components/ProductListing";
 import Modal from "./components/Modal";
 
-
-const produtos = require("./constants/data.json")
+import Navbar from "./components/Navbar";
+import Home from "./pages/Home"
 
 
 function App() {
@@ -23,18 +23,11 @@ function App() {
 					setIsModalOpen(true)
 				}
 			}}>
-				<div className="min-h-screen bg-stone-100 p-16">
-					<div className="max-w-screen-lg mx-auto text-center">
-						<p className="text-4xl">
-							Produtos
-						</p>
-						<div className="mt-4">
-							{produtos.map((produto, index) => (
-								<ProductListing key={index} product={produto}/>
-							))}
-						</div>
-					</div>
-				</div>
+				<Navbar />
+				<Routes>
+					<Route path="/" element={<Home />} />
+					<Route path="/teste" element={<div>HELLO WORLD</div>} />
+				</Routes>
 			</ModalContext.Provider>
 			<Modal child={modalComponent} isOpen={isModalOpen} close={() => {
 				setModalComponent(null)
