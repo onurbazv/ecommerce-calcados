@@ -23,11 +23,13 @@ function App() {
 					setIsModalOpen(true)
 				}
 			}}>
-				<Navbar />
-				<Routes>
-					<Route path="/" element={<Home />} />
-					<Route path="/teste" element={<div>HELLO WORLD</div>} />
-				</Routes>
+				<div className="bg-stone-200">
+					<Navbar />
+					<Routes>
+						<Route path="/" element={<Home />} />
+						<Route path="/teste" element={<div>HELLO WORLD</div>} />
+					</Routes>
+				</div>
 			</ModalContext.Provider>
 			<Modal child={modalComponent} isOpen={isModalOpen} close={() => {
 				setModalComponent(null)
