@@ -7,14 +7,14 @@ const rawData = require("../constants/data.json")
 const adsCarousel = [
 	{
 		to_path: "/",
-		img: "https://www.evergreenlandscape.net/ideas/wp-content/uploads/2014/04/patios_and_walkways_30_1000x563.jpg"
+		img: "./img/ads/1.png"
 	},
 	{
 		to_path: "/",
-		img: "https://d25tv1xepz39hi.cloudfront.net/2017-12-12/files/eos-6d-mark-ii-sample-image_1723-1.jpg"
+		img: "./img/ads/1.png"
 	}, {
 		to_path: "/",
-		img: "https://hebdo25.net/wp-content/uploads/2021/03/Business-concept-effort-for-success-feature-getty.jpg"
+		img: "./img/ads/1.png"
 	}
 ]
 
