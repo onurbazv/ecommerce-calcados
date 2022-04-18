@@ -20,6 +20,7 @@ A partir desse momento podemos seguir o caminhos:
 
 # Next Up
 
+// quase feito, só falta o envio dos dados
 - Usar o script de scrape para no minimo triplicar o número de produtos disponíveis
 - Revisar dados baixados, incluindo/corrigindo aonde necessário
 - Revisão da estrutura de dados

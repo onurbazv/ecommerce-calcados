@@ -11,7 +11,7 @@ const adsCarousel = [
 	},
 	{
 		to_path: "/",
-		img: "./img/ads/1.png"
+		img: "./img/ads/2.png"
 	}, {
 		to_path: "/",
 		img: "./img/ads/1.png"

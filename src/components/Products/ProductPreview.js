@@ -8,9 +8,16 @@ const ProductPreview = ({product}) => {
             <p>
                 {product.nome}
             </p>
-            <p className="text-xl uppercase font-extrabold">
-                R$ {product.preco}
-            </p>
+            {product.desconto === 0 ? (
+                <p className="text-lg uppercase font-bold">
+                    R$ {product.preco.toFixed(2)}
+                </p>
+            ) : (
+                <p className="text-lg uppercase font-bold">
+                    <span className="text-base font-medium line-through mr-1">R${product.preco}</span>
+                     R${(product.preco * (1 - (product.desconto / 100))).toFixed(2)}
+                </p>
+            )}
         </div>
     )
 }

@@ -1,7 +1,7 @@
 [
 	{
 		"id": "-akK6i6SywvWpQyUEytfz",
-		"nome": "Chuteira Dalponte Masculina Society Twister Laranja - verde - Laranja",
+		"nome": "Chuteira Dalponte Masculina Society Twister",
 		"tipo": "Chuteira",
 		"marca": "DalPonte",
 		"genero": "Unissex",
@@ -26,7 +26,7 @@
 	},
 	{
 		"id": "00vuv30QD_2WvDUNZSeGv",
-		"nome": "Bota Cano Longo Via Marte Pelo Feminina - Branco",
+		"nome": "Bota Cano Longo Via Marte Pelo Feminina",
 		"tipo": "Bota",
 		"marca": "Via Marte",
 		"genero": "Feminino",
@@ -56,8 +56,8 @@
 	},
 	{
 		"id": "0FnKhZ-TEJ38kki1cAC46",
-		"nome": "Sandália crocs classic all terrain space jam 2 black/multi - Preto",
-		"tipo": "",
+		"nome": "Sandália Crocs Classic All Terrain Space Jam 2",
+		"tipo": "Crocs",
 		"marca": "Crocs",
 		"genero": "Unissex",
 		"preco": 279.0,
@@ -82,7 +82,7 @@
 	},
 	{
 		"id": "0VVo4OSoGzu4d3jxnrRd6",
-		"nome": "Sapatênis Slip On Fericelli Masculino - Preto",
+		"nome": "Sapatênis Slip On Fericelli Masculino",
 		"tipo": "Sapatênis",
 		"marca": "Ferricelli",
 		"genero": "Masculino",
@@ -109,7 +109,7 @@
 	},
 	{
 		"id": "0x2R3HTCxXB0sRTTmbI7O",
-		"nome": "Bota Dakota de Cano Curto Tratorada - Preto+verde",
+		"nome": "Bota Dakota de Cano Curto Tratorada",
 		"tipo": "Bota",
 		"marca": "Dakota",
 		"genero": "Feminino",
@@ -165,7 +165,7 @@
 	},
 	{
 		"id": "1pNy9VyOmlLO9V4tSBQ8N",
-		"nome": "Chuteira Society Nike Phantom GT2 Club DF - Laranja",
+		"nome": "Chuteira Society Nike Phantom GT2 Club DF",
 		"tipo": "Chuteira",
 		"marca": "Nike",
 		"genero": "Unissex",
@@ -194,7 +194,7 @@
 	},
 	{
 		"id": "1qu823s1nFzVhRp8mfuLs",
-		"nome": "Bota Adventure Cano Alto Macboot Atibaia 02 Grafite - 43 - Preto",
+		"nome": "Bota Adventure Cano Alto Macboot Atibaia",
 		"tipo": "Bota",
 		"marca": "Macboot",
 		"genero": "Masculino",
@@ -223,7 +223,7 @@
 	},
 	{
 		"id": "1Zln2vckh2aYGOG_ofePm",
-		"nome": "Tênis Mizuno Cometa - Preto+Branco",
+		"nome": "Tênis Mizuno Cometa",
 		"tipo": "Tênis",
 		"marca": "Mizuno",
 		"genero": "Unissex",
@@ -251,8 +251,8 @@
 	},
 	{
 		"id": "3Nt4O2BaIeCFZTafDYCPp",
-		"nome": "TENIS ALL STAR CHUCK TAYLOR CT1308 - Onça",
-		"tipo": "",
+		"nome": "Tênis All Star Chuck Taylor CT1308",
+		"tipo": "Tênis",
 		"marca": "Converse",
 		"genero": "Unissex",
 		"preco": 279.99,
@@ -278,7 +278,7 @@
 	},
 	{
 		"id": "58APP6Sw1jaGVxGEbqZ0p",
-		"nome": "Chuteira Campo Umbro Ultraskin Oficial - Vermelho",
+		"nome": "Chuteira Campo Umbro Ultraskin Oficial",
 		"tipo": "Chuteira",
 		"marca": "Umbro",
 		"genero": "Masculino",
@@ -307,7 +307,7 @@
 	},
 	{
 		"id": "5DDky4ZGJgpe4c_oXuB4S",
-		"nome": "Chuteira Society Novo Modelo - Preto",
+		"nome": "Chuteira Society A7 Novo Modelo",
 		"tipo": "Chuteira",
 		"marca": "A7",
 		"genero": "Masculino",
@@ -335,7 +335,7 @@
 	},
 	{
 		"id": "7ey2I0PUm8CZBOb60MGRY",
-		"nome": "Tênis Nike Renew Ride 2 Feminino - Preto",
+		"nome": "Tênis Nike Renew Ride 2",
 		"tipo": "Tênis",
 		"marca": "Nike",
 		"genero": "Feminino",
@@ -361,7 +361,7 @@
 	},
 	{
 		"id": "7mG3Lvpqeeqpu1w7LoBN6",
-		"nome": "Chuteira Society Pro Oxn Avanti 2 - Laranja",
+		"nome": "Chuteira Society Pro Oxn Avanti 2",
 		"tipo": "Chuteira",
 		"marca": "OXN",
 		"genero": "Masculino",
@@ -387,7 +387,7 @@
 	},
 	{
 		"id": "8go4eNAiw0Qz5msXzVtBA",
-		"nome": "Bota Moleca 5325.117 - Caramelo+branco",
+		"nome": "Bota Moleca 5325.117",
 		"tipo": "Bota",
 		"marca": "Moleca",
 		"genero": "Feminino",
@@ -413,7 +413,7 @@
 	},
 	{
 		"id": "aEBz6Au3LOS-wSCgL_xhq",
-		"nome": "Tênis Adidas Breaknet Feminino - Branco+Cinza",
+		"nome": "Tênis Adidas Breaknet Feminino",
 		"tipo": "Tênis",
 		"marca": "Adidas",
 		"genero": "Feminino",
@@ -440,7 +440,7 @@
 	},
 	{
 		"id": "aHQC_EACIb9IHiNjg04KL",
-		"nome": "Sapatênis Slip Masculino Zurick Preto 330 - Preto",
+		"nome": "Sapatênis Slip Masculino Zurick",
 		"tipo": "Sapatênis",
 		"marca": "ZURICK",
 		"genero": "Masculino",
@@ -471,7 +471,7 @@
 	},
 	{
 		"id": "AsaFmGCodzcuO_-1hoCPL",
-		"nome": "Tênis Feminino Caminhada Ultrabone Leve + Relógio - Preto",
+		"nome": "Tênis Feminino Caminhada Ultrabone + Relógio",
 		"tipo": "Tênis",
 		"marca": "ULTRABONE",
 		"genero": "Feminino",
@@ -556,8 +556,8 @@
 	},
 	{
 		"id": "BYCBuNBPRHZmLbvVQ9LLd",
-		"nome": "Sandalia Clog Life Shoes New Clog - Rosa",
-		"tipo": "",
+		"nome": "Sandalia Clog Life Shoes New Clog",
+		"tipo": "Crocs",
 		"marca": "Life Shoes",
 		"genero": "Unissex",
 		"preco": 104.28,
@@ -584,7 +584,7 @@
 	},
 	{
 		"id": "C-ftfgCCPUHga0ujrNehM",
-		"nome": "Sapatênis Masculino Couro Casual Confortável Social - Marrom",
+		"nome": "Sapatênis Masculino Couro Casual Confortável SociaL",
 		"tipo": "Sapatênis",
 		"marca": "Ideale",
 		"genero": "Unissex",
@@ -609,7 +609,7 @@
 	},
 	{
 		"id": "Df3nHVA8Vl9X-RYkOJ_4B",
-		"nome": "Chuteira Campo Umbro Speed Sonic Jr Umbro - Colorido",
+		"nome": "Chuteira Campo Umbro Speed Sonic Jr Umbro",
 		"tipo": "Chuteira",
 		"marca": "Umbro",
 		"genero": "Masculino",
@@ -635,8 +635,8 @@
 	},
 	{
 		"id": "DLBvlNu6PRkk9yoazhOUK",
-		"nome": "Botina Masculina Couro Marrom Bico Redondo Zebu 2 - Marrom",
-		"tipo": "",
+		"nome": "Botina Masculina Couro Marrom Bico Redondo Zebu 2",
+		"tipo": "Bota",
 		"marca": "Zebu",
 		"genero": "Masculino",
 		"preco": 455.45,
@@ -687,12 +687,12 @@
 		"descricao": "Para caminhadas e corridas leves, treinos de musculação ou até mesmo no dia a dia aposte no conforto e qualidade do Tênis Nike Feminino Revolution 6 Next Nature para completar seu look. Com cabedal produzido em material macio, o modelo possui calcanhar acolchoado e fecho em cadarço para ajuste personalizado e firme. A entressola em EVA proporciona amortecimento leve e o solado emborrachado garante aderência e tração em diferentes tipos de pisos. Já o visual moderno agrega valor e deixa seu estilo autêntico e despojado. Aproveite!",
 		"avaliacao_media": 4.61,
 		"avaliacao_qtd": 421,
-		"desconto": 0
+		"desconto": 40
 	},
 	{
 		"id": "eO7QpMtnUxTe-pNtzevc0",
-		"nome": "Coturno Adventure Lorenzzo Lopezz Tratorado - Preto",
-		"tipo": "",
+		"nome": "Coturno Adventure Lorenzzo Lopezz Tratorado",
+		"tipo": "Bota",
 		"marca": "Lorenzzo Lopez",
 		"genero": "Masculino",
 		"preco": 109.9,
@@ -718,7 +718,7 @@
 	},
 	{
 		"id": "FyYhAuAjL-D565FmkB4hF",
-		"nome": "Bota Masculino Timberland Trail Hiker Plymouth Goretex - Verde",
+		"nome": "Bota Masculino Timberland Trail Hiker Plymouth Goretex",
 		"tipo": "Bota",
 		"marca": "Ronei Shoes",
 		"genero": "Masculino",
@@ -745,7 +745,7 @@
 	},
 	{
 		"id": "g6bqtq_JmkhwtylbH61Nu",
-		"nome": "Crocs brooklyn mid wedge w stucco/mushroom - Creme",
+		"nome": "Crocs brooklyn mid wedge w stucco/mushroom",
 		"tipo": "Crocs",
 		"marca": "Crocs",
 		"genero": "Feminino",
@@ -772,8 +772,8 @@
 	},
 	{
 		"id": "GFCUaDQ7KANGCuvvxnlJp",
-		"nome": "Sapatenis Casual Lorenzzo Lopezz Urbano - Preto",
-		"tipo": "",
+		"nome": "Sapatênis Casual Lorenzzo Lopezz Urbano",
+		"tipo": "Sapatênis",
 		"marca": "Lorenzzo Lopez",
 		"genero": "Masculino",
 		"preco": 109.9,
@@ -800,7 +800,7 @@
 	},
 	{
 		"id": "GIgwTqsKEgNspubsOvF6y",
-		"nome": "Chuteira Society Nike Vapor 14 Academy - Azul+amarelo",
+		"nome": "Chuteira Society Nike Vapor 14 Academy",
 		"tipo": "Chuteira",
 		"marca": "Nike",
 		"genero": "Unissex",
@@ -826,7 +826,7 @@
 	},
 	{
 		"id": "gTLEu5wSxEB0tcX3slTzd",
-		"nome": "Bota Timberland Masculina Union Original - Preto",
+		"nome": "Bota Timberland Masculina Union Original",
 		"tipo": "Bota",
 		"marca": "John Botas",
 		"genero": "Masculino",
@@ -854,8 +854,8 @@
 	},
 	{
 		"id": "gYkJhuuYocBld4-0tMfe6",
-		"nome": "Clog Boaonda Ortopédica Babucha Nellie Feminina - Rosê",
-		"tipo": "",
+		"nome": "Clog Boaonda Ortopédica Babucha Nellie Feminina",
+		"tipo": "Crocs",
 		"marca": "Boaonda",
 		"genero": "Feminino",
 		"preco": 99.9,
@@ -909,7 +909,7 @@
 	},
 	{
 		"id": "G_OgOi4NFUeqLn0v_uWua",
-		"nome": "Crocs literide clog  smoke/pearl white - Cinza",
+		"nome": "Crocs Literide Clog",
 		"tipo": "Crocs",
 		"marca": "Crocs",
 		"genero": "Unissex",
@@ -964,7 +964,7 @@
 	},
 	{
 		"id": "hjeJlq1GxcqQ6XlYKG72O",
-		"nome": "Tênis Nike Flex Experience RN 11 Masculino - Preto+Vermelho",
+		"nome": "Tênis Nike Flex Experience RN 11 Masculino",
 		"tipo": "Tênis",
 		"marca": "Nike",
 		"genero": "Masculino",
@@ -994,7 +994,7 @@
 	},
 	{
 		"id": "HLWke2-DkhULwUTDbr11O",
-		"nome": "Chuteira Futsal Penalty Max 1000 Ecoknit - 41 - Azul",
+		"nome": "Chuteira Futsal Penalty Max 1000 Ecoknit",
 		"tipo": "Chuteira",
 		"marca": "Penalty",
 		"genero": "Unissex",
@@ -1021,7 +1021,7 @@
 	},
 	{
 		"id": "hulb10gVaLuhKCUK1Zh6R",
-		"nome": "Tênis Skechers Dynamight 2.0 Cherish Moments Feminino - Rosê",
+		"nome": "Tênis Skechers Dynamight 2.0 Cherish Moments Feminino",
 		"tipo": "Tênis",
 		"marca": "Skechers",
 		"genero": "Feminino",
@@ -1047,7 +1047,7 @@
 	},
 	{
 		"id": "IiEVbUjqMVRQ03aWyX1md",
-		"nome": "Bota Feminina Salto Baixo Cano Curto Botinha Macia Confortavel - Jeans",
+		"nome": "Bota Feminina Salto Baixo Cano Curto Botinha Macia Confortavel",
 		"tipo": "Bota",
 		"marca": "REF",
 		"genero": "Feminino",
@@ -1075,7 +1075,7 @@
 	},
 	{
 		"id": "iJZADsE3o7JVDt9W8NG-_",
-		"nome": "Tênis Puma FLYER RUNNER BDP Feminino - Preto+Vermelho",
+		"nome": "Tênis Puma FLYER RUNNER BDP Feminino",
 		"tipo": "Tênis",
 		"marca": "Puma",
 		"genero": "Feminino",
@@ -1101,7 +1101,7 @@
 	},
 	{
 		"id": "iq3li17M_ea2Y7BovFiIx",
-		"nome": "Bota Couro Masculina Cadarço Moderna Macia Conforto Casual - Marrom",
+		"nome": "Bota Couro Masculina Cadarço Moderna Macia Conforto Casual",
 		"tipo": "Bota",
 		"marca": "Franca Brasil",
 		"genero": "Masculino",
@@ -1157,7 +1157,7 @@
 	},
 	{
 		"id": "IXn7icIwGtL5VzkApWvNz",
-		"nome": "Sapatênis Constantino Elastic Style Branco - Masculino 40 - Off White",
+		"nome": "Sapatênis Constantino Elastic Style",
 		"tipo": "Sapatênis",
 		"marca": "Constantino",
 		"genero": "Masculino",
@@ -1187,7 +1187,7 @@
 	},
 	{
 		"id": "izEHVRkTqZl_tXsH9xxtO",
-		"nome": "Bota Over Casual Feminina - Preto",
+		"nome": "Bota Over Casual Feminina",
 		"tipo": "Bota",
 		"marca": "ZOCCOLETTE",
 		"genero": "Feminino",
@@ -1213,7 +1213,7 @@
 	},
 	{
 		"id": "jaljTyGIHcKVshtLg2NIV",
-		"nome": "Sapatênis Casual Masculino Zurick Café 620 - Café",
+		"nome": "Sapatênis Casual Masculino Zurick",
 		"tipo": "Sapatênis",
 		"marca": "ZURICK",
 		"genero": "Masculino",
@@ -1242,7 +1242,7 @@
 	},
 	{
 		"id": "JeCBSw4VgEBX8cM21jViD",
-		"nome": "Bota Mississipi de Cano Longo - Preto",
+		"nome": "Bota Mississipi de Cano Longo",
 		"tipo": "Bota",
 		"marca": "Mississipi",
 		"genero": "Feminino",
@@ -1271,7 +1271,7 @@
 	},
 	{
 		"id": "JQVijkPwA4upSdOeleaxK",
-		"nome": "Tênis Adidas Vulc Raid3R Masculino - Preto+Branco",
+		"nome": "Tênis Adidas Vulc Raid3R Masculino",
 		"tipo": "Tênis",
 		"marca": "Adidas",
 		"genero": "Masculino",
@@ -1301,7 +1301,7 @@
 	},
 	{
 		"id": "JSwWWEP82-L8B0XvvBH5-",
-		"nome": "Tênis Nike Fly By Mid 3 Masculino - Branco+Cinza",
+		"nome": "Tênis Nike Fly By Mid 3 Masculino",
 		"tipo": "Tênis",
 		"marca": "Nike",
 		"genero": "Unissex",
@@ -1330,7 +1330,7 @@
 	},
 	{
 		"id": "Ka4hL03RfLh4u1yRq5sA3",
-		"nome": "Tênis Skechers Arch Fit Feminino - Vinho",
+		"nome": "Tênis Skechers Arch Fit Feminino",
 		"tipo": "Tênis",
 		"marca": "Skechers",
 		"genero": "Feminino",
@@ -1359,7 +1359,7 @@
 	},
 	{
 		"id": "kK58xIkO6h1oI0nQX7mLe",
-		"nome": "Bota Timberland Sprint Trekker de Couro Cor - Amarelo",
+		"nome": "Bota Timberland Sprint Trekker de Couro",
 		"tipo": "Bota",
 		"marca": "Timberland",
 		"genero": "Masculino",
@@ -1388,7 +1388,7 @@
 	},
 	{
 		"id": "klG-QpQbeEUh6FM-6Ocgv",
-		"nome": "Sapatênis Pegada De Couro Pinhão com Cadarços Elásticos - Marrom",
+		"nome": "Sapatênis Pegada De Couro Pinhão",
 		"tipo": "Sapatênis",
 		"marca": "Pegada",
 		"genero": "Masculino",
@@ -1418,8 +1418,8 @@
 	},
 	{
 		"id": "kR_DA1dDpkK7VIMu4qGOJ",
-		"nome": "Coturno Mississipi - Preto",
-		"tipo": "",
+		"nome": "Coturno Mississipi",
+		"tipo": "Bota",
 		"marca": "Mississipi",
 		"genero": "Feminino",
 		"preco": 139.9,
@@ -1448,7 +1448,7 @@
 	},
 	{
 		"id": "KuIw6heOA9mPh9s7WJpeh",
-		"nome": "Crocs isabella sandal w electric blue/gold - Azul",
+		"nome": "Crocs Isabella Sandal W Electric",
 		"tipo": "Crocs",
 		"marca": "Crocs",
 		"genero": "Feminino",
@@ -1476,8 +1476,8 @@
 	},
 	{
 		"id": "LCNi0T0Z7GMhIJlNjg0Ds",
-		"nome": "Coturno Adventure Lorenzzo Lopezz Tratorado - Amarelo",
-		"tipo": "",
+		"nome": "Coturno Adventure Lorenzzo Lopezz Tratorado",
+		"tipo": "Bota",
 		"marca": "Lorenzzo Lopez",
 		"genero": "Masculino",
 		"preco": 109.9,
@@ -1504,7 +1504,7 @@
 	},
 	{
 		"id": "Lq2-9Z-V9qHVuhZOGgske",
-		"nome": "Bota Adventure Cano Alto Macboot Massaranduba 02 Café - 41 - Café",
+		"nome": "Bota Adventure Cano Alto Macboot Massaranduba",
 		"tipo": "Bota",
 		"marca": "Macboot",
 		"genero": "Masculino",
@@ -1535,7 +1535,7 @@
 	},
 	{
 		"id": "LYOmC5U0lrO90YuW4Nppq",
-		"nome": "Sapatênis Masculino Couro Preto Casual Confortável e Leve - Marinho",
+		"nome": "Sapatênis Masculino Couro Preto Casual",
 		"tipo": "Sapatênis",
 		"marca": "Ideale",
 		"genero": "Unissex",
@@ -1563,7 +1563,7 @@
 	},
 	{
 		"id": "lzDRty9A7v6wqL0jVg8y3",
-		"nome": "Bota Feminina Mississipi Cano Curto Com Pelo Salto Bloco - Marrom",
+		"nome": "Bota Feminina Mississipi Cano Curto Com Pelo Salto Bloco",
 		"tipo": "Bota",
 		"marca": "Mississipi",
 		"genero": "Feminino",
@@ -1624,7 +1624,7 @@
 	},
 	{
 		"id": "mEFBekY8EbXf9DKmqfx3g",
-		"nome": "Sapatênis Pegada Element Masculino - Preto",
+		"nome": "Sapatênis Pegada Element Masculino",
 		"tipo": "Sapatênis",
 		"marca": "Pegada",
 		"genero": "Masculino",
@@ -1654,7 +1654,7 @@
 	},
 	{
 		"id": "MhEDLnC0n1n8QoJft8CNn",
-		"nome": "Crocs fl disney minnie mouse bnd cgk flame - Vermelho",
+		"nome": "Crocs FL Disney Minnie Mouse",
 		"tipo": "Crocs",
 		"marca": "Crocs",
 		"genero": "Feminino",
@@ -1679,7 +1679,7 @@
 	},
 	{
 		"id": "MNgdQSYKInhaYb-bR1N6c",
-		"nome": "Bota Coturno Feminino Cano Curto C/ Salto Em Couro Detalhes Lateral DR729 - Preto",
+		"nome": "Bota Coturno Feminino Cano Curto C/ Salto Em Couro DR729",
 		"tipo": "Bota",
 		"marca": "Ferraroni",
 		"genero": "Feminino",
@@ -1707,7 +1707,7 @@
 	},
 	{
 		"id": "NgQwJZ3dE6Fw3YnZm5mdl",
-		"nome": "Chuteira Futsal Topper Drible III Infantil - Cinza+Amarelo",
+		"nome": "Chuteira Futsal Topper Drible III",
 		"tipo": "Chuteira",
 		"marca": "Topper",
 		"genero": "Masculino",
@@ -1736,7 +1736,7 @@
 	},
 	{
 		"id": "NmiIbVWYJtCDRaaMsBkCh",
-		"nome": "Chuteira Campo Umbro Illusion - Preto+Vinho",
+		"nome": "Chuteira Campo Umbro Illusion",
 		"tipo": "Chuteira",
 		"marca": "Umbro",
 		"genero": "Masculino",
@@ -1765,7 +1765,7 @@
 	},
 	{
 		"id": "nZowV75Y0W6A3NSObaY2e",
-		"nome": "Tênis Nike Downshifter 11 Feminino - Branco",
+		"nome": "Tênis Nike Downshifter 11 Feminino",
 		"tipo": "Tênis",
 		"marca": "Nike",
 		"genero": "Feminino",
@@ -1792,7 +1792,7 @@
 	},
 	{
 		"id": "ODiP4aSP6BlTWFAQcRdbH",
-		"nome": "Tênis Adidas Breaknet Masculino - Branco+Azul Royal",
+		"nome": "Tênis Adidas Breaknet Masculino",
 		"tipo": "Tênis",
 		"marca": "Adidas",
 		"genero": "Masculino",
@@ -1823,7 +1823,7 @@
 	},
 	{
 		"id": "ojXAhxHzLWGFyld8XDioA",
-		"nome": "Tênis Olympikus Cyber 2 Masculino - Preto+Dourado",
+		"nome": "Tênis Olympikus Cyber 2 Masculino",
 		"tipo": "Tênis",
 		"marca": "Olympikus",
 		"genero": "Masculino",
@@ -1852,7 +1852,7 @@
 	},
 	{
 		"id": "OldBZozA7fzwoYldYxu4E",
-		"nome": "Tênis Feminino Esportivo Actvitta 4812104 - Coral",
+		"nome": "Tênis Feminino Esportivo Actvitta",
 		"tipo": "Tênis",
 		"marca": "Actvitta",
 		"genero": "Feminino",
@@ -1882,7 +1882,7 @@
 	},
 	{
 		"id": "OOr3eppfjSEtNUE0l_rjI",
-		"nome": "Tênis Nike Air Max Alpha Trainer 4 Masculino - Preto+Azul",
+		"nome": "Tênis Nike Air Max Alpha Trainer 4 Masculino",
 		"tipo": "Tênis",
 		"marca": "Nike",
 		"genero": "Masculino",
@@ -1911,7 +1911,7 @@
 	},
 	{
 		"id": "OPXXBWW4ehww2zfuYUmOw",
-		"nome": "Chuteira Society Kappa 8314 - Preto- Infantil - Preto",
+		"nome": "Chuteira Society Kappa 8314",
 		"tipo": "Chuteira",
 		"marca": "Kappa",
 		"genero": "Unissex",
@@ -1938,8 +1938,8 @@
 	},
 	{
 		"id": "Oq4kU6B9kRea2N8RzV5hV",
-		"nome": "SAPATÊNIS WEST COAST 46592 - Cafe",
-		"tipo": "",
+		"nome": "Sapatênis West Coast",
+		"tipo": "Sapatênis",
 		"marca": "West Coast",
 		"genero": "Unissex",
 		"preco": 249.99,
@@ -1966,7 +1966,7 @@
 	},
 	{
 		"id": "P5O3S-la5ajGYx9uvjRlq",
-		"nome": "Sapatênis Casual Masculino Sport Confortável com Meia - Preto",
+		"nome": "Sapatênis Casual Masculino Sport",
 		"tipo": "Sapatênis",
 		"marca": "Ceici",
 		"genero": "Masculino",
@@ -1996,7 +1996,7 @@
 	},
 	{
 		"id": "PBfdFmO77bJqvc9XwSIN1",
-		"nome": "Sapatênis Casual Moda Masculino Urban Hankook - Marrom Claro",
+		"nome": "Sapatênis Casual Moda Masculino Urban Hankook",
 		"tipo": "Sapatênis",
 		"marca": "Hankook",
 		"genero": "Masculino",
@@ -2026,7 +2026,7 @@
 	},
 	{
 		"id": "PlaDtaK4bLBYzSW-A-E_x",
-		"nome": "Tênis Olympikus Bravo Masculino - Preto+Chumbo",
+		"nome": "Tênis Olympikus Bravo Masculino",
 		"tipo": "Tênis",
 		"marca": "Olympikus",
 		"genero": "Masculino",
@@ -2056,7 +2056,7 @@
 	},
 	{
 		"id": "Q6E8i-ukUHes37e1B47Oy",
-		"nome": "Tênis Olympikus Fluido Masculino - Preto+Branco",
+		"nome": "Tênis Olympikus Fluido Masculino",
 		"tipo": "Tênis",
 		"marca": "Olympikus",
 		"genero": "Masculino",
@@ -2083,7 +2083,7 @@
 	},
 	{
 		"id": "Q70gt0asMbki7-Low42-J",
-		"nome": "Bota Coturno Casual Feminina - Preto",
+		"nome": "Bota Coturno Casual Feminina",
 		"tipo": "Bota",
 		"marca": "Nanda Ramos",
 		"genero": "Feminino",
@@ -2113,7 +2113,7 @@
 	},
 	{
 		"id": "q7S39RFrE9dtvrNy1WM5M",
-		"nome": "Chuteira Futsal Nike Tiempo Legend Academy - Branco+Laranja",
+		"nome": "Chuteira Futsal Nike Tiempo Legend Academy",
 		"tipo": "Chuteira",
 		"marca": "Nike",
 		"genero": "Unissex",
@@ -2142,7 +2142,7 @@
 	},
 	{
 		"id": "q92g5P-U9zltJlEnEZzrp",
-		"nome": "Tênis Nike Precision V - Cinza+Vermelho",
+		"nome": "Tênis Nike Precision V",
 		"tipo": "Tênis",
 		"marca": "Nike",
 		"genero": "Unissex",
@@ -2171,7 +2171,7 @@
 	},
 	{
 		"id": "QdbUNlQy7mkmf_Kam2EQs",
-		"nome": "Tênis Umbro Futsal Velocita 6 Club - Amarelo+Preto",
+		"nome": "Tênis Umbro Futsal Velocita 6 Club",
 		"tipo": "Tênis",
 		"marca": "Umbro",
 		"genero": "Masculino",
@@ -2201,8 +2201,8 @@
 	},
 	{
 		"id": "QR4QMWuWd9KO6yz9o7Bh_",
-		"nome": "Sandália crocs tulum dark gold - Dourado",
-		"tipo": "",
+		"nome": "Sandália Crocs Tulum Dark Gold",
+		"tipo": "Crocs",
 		"marca": "Crocs",
 		"genero": "Feminino",
 		"preco": 299.0,
@@ -2259,7 +2259,7 @@
 	},
 	{
 		"id": "QZZVyuz6E-fW7z3rQtSSK",
-		"nome": "Bota Cano Curto Vizzano Bico Fino Lisa Feminina - Vermelho",
+		"nome": "Bota Cano Curto Vizzano Bico Fino Lisa Feminina",
 		"tipo": "Bota",
 		"marca": "Vizzano",
 		"genero": "Feminino",
@@ -2286,7 +2286,7 @@
 	},
 	{
 		"id": "q_i53RXWu00RkuQh4GhXf",
-		"nome": "Tênis Puma Smash v2 BDP Feminino - Branco+Rosa",
+		"nome": "Tênis Puma Smash v2 BDP Feminino",
 		"tipo": "Tênis",
 		"marca": "Puma",
 		"genero": "Feminino",
@@ -2314,8 +2314,8 @@
 	},
 	{
 		"id": "R7MGXaLWFYj48Ci85Bstw",
-		"nome": "Sapatenis Ferracini 7546 572d Fusion Knit Masculino - Marinho",
-		"tipo": "",
+		"nome": "Sapatênis Ferracini 572d Fusion Knit Masculino",
+		"tipo": "Sapatênis",
 		"marca": "Ferracini",
 		"genero": "Masculino",
 		"preco": 349.9,
@@ -2344,7 +2344,7 @@
 	},
 	{
 		"id": "rHlZ9ba3-ga691GJovine",
-		"nome": "Bota Feminina Salto Medio Tratorado Fechamento Cadarço - Branco",
+		"nome": "Bota Feminina Salto Medio Tratorado",
 		"tipo": "Bota",
 		"marca": "CAPITAL DO CALÇADO",
 		"genero": "Feminino",
@@ -2369,7 +2369,7 @@
 	},
 	{
 		"id": "RNXqxAiFSa6Q3trwIUcyC",
-		"nome": "Bota Masculina Solado Tratorado Borracha Fechamento Cadarço - Preto",
+		"nome": "Bota Masculina Solado Tratorado Borracha",
 		"tipo": "Bota",
 		"marca": "CAPITAL DO CALÇADO",
 		"genero": "Masculino",
@@ -2397,7 +2397,7 @@
 	},
 	{
 		"id": "rSsbXVVZE-FoG2cdl6trS",
-		"nome": "Bota Feminina Cano Médio Coturno Salto Alto Salto Grosso Casual Tendência - Preto",
+		"nome": "Bota Feminina Cano Médio Coturno Salto Alto Casual Tendência",
 		"tipo": "Bota",
 		"marca": "Anna Andrade",
 		"genero": "Feminino",
@@ -2426,7 +2426,7 @@
 	},
 	{
 		"id": "s2ZX2Z-M3rZ2Om1gwifhw",
-		"nome": "Crocs Classico Crocband - Marinho+Azul",
+		"nome": "Crocs Classico Crocband",
 		"tipo": "Crocs",
 		"marca": "Crocs",
 		"genero": "Unissex",
@@ -2452,7 +2452,7 @@
 	},
 	{
 		"id": "S4Ws1_F0ngcdc-DPl6Esi",
-		"nome": "Chuteira Futsal Topper Dominator Knit Pro - Vermelho+Branco",
+		"nome": "Chuteira Futsal Topper Dominator Knit Pro",
 		"tipo": "Chuteira",
 		"marca": "Topper",
 		"genero": "Masculino",
@@ -2483,7 +2483,7 @@
 	},
 	{
 		"id": "SjKrBB1jjabNiLusFgNjm",
-		"nome": "Tênis Olympikus Atmos - Preto",
+		"nome": "Tênis Olympikus Atmos",
 		"tipo": "Tênis",
 		"marca": "OLK",
 		"genero": "Feminino",
@@ -2509,7 +2509,7 @@
 	},
 	{
 		"id": "SL9E7ZAKG2ZHBswWCtB6j",
-		"nome": "Bota Dakota Tratorada Com Pelos - Preto",
+		"nome": "Bota Dakota Tratorada Com Pelos",
 		"tipo": "Bota",
 		"marca": "Dakota",
 		"genero": "Feminino",
@@ -2535,7 +2535,7 @@
 	},
 	{
 		"id": "sLIKZWF0Ya_FmSFzQ-3c0",
-		"nome": "Tenis Sapatênis Casual Masculino Cano Médio Estilo Europeu - Preto",
+		"nome": "Tenis Sapatênis Casual Masculino Cano Médio Estilo Europeu",
 		"tipo": "Sapatênis",
 		"marca": "Stefanini",
 		"genero": "Masculino",
@@ -2565,7 +2565,7 @@
 	},
 	{
 		"id": "TaN5njBvuZCADlAVdyVHN",
-		"nome": "Tênis Olympikus Indico Masculino - Preto+Chumbo",
+		"nome": "Tênis Olympikus Indico Masculino",
 		"tipo": "Tênis",
 		"marca": "Olympikus",
 		"genero": "Masculino",
@@ -2593,7 +2593,7 @@
 	},
 	{
 		"id": "tdYAY5-llDwOM4R2ZJWXq",
-		"nome": "Bota Casual Masculina em Couro Modelo Social Com Ziper Lateral Salto Baixo - Marrom",
+		"nome": "Bota Casual Masculina em Couro Modelo Social Com Ziper Lateral Salto Baixo",
 		"tipo": "Bota",
 		"marca": "Gmm Shoes",
 		"genero": "Masculino",
@@ -2619,7 +2619,7 @@
 	},
 	{
 		"id": "TFXOfy3rl3XakwSezcYpO",
-		"nome": "Croc Sandalia Josephine Babuche Rosa - Rosa",
+		"nome": "Croc Sandalia Josephine Babuche",
 		"tipo": "Crocs",
 		"marca": "Josephine",
 		"genero": "Feminino",
@@ -2648,7 +2648,7 @@
 	},
 	{
 		"id": "tgWVMmxtA46Yz3L_mAq6Y",
-		"nome": "Bota Casual Masculina Palmilha EVA Fechamento Cadarço Lisa - Preto",
+		"nome": "Bota Casual Masculina Palmilha EVA Fechamento Cadarço Lisa",
 		"tipo": "Bota",
 		"marca": "CAPITAL DO CALÇADO",
 		"genero": "Masculino",
@@ -2678,7 +2678,7 @@
 	},
 	{
 		"id": "TuyNfP87Nlh1aknGh99EK",
-		"nome": "Tênis Adidas Farm Feminino - Branco",
+		"nome": "Tênis Adidas Farm Feminino",
 		"tipo": "Tênis",
 		"marca": "Adidas",
 		"genero": "Feminino",
@@ -2706,7 +2706,7 @@
 	},
 	{
 		"id": "t_wYwmeB7wAvoRJKDdzRg",
-		"nome": "Tênis DC Shoes Anvil TX Masculino - Preto",
+		"nome": "Tênis DC Shoes Anvil TX Masculino",
 		"tipo": "Tênis",
 		"marca": "DC Shoes",
 		"genero": "Masculino",
@@ -2760,7 +2760,7 @@
 	},
 	{
 		"id": "UkQCuJ_Dx3KoN4hkB7yN2",
-		"nome": "Tênis Anacapri Flatform Feminino - Colorido",
+		"nome": "Tênis Anacapri Flatform Feminino",
 		"tipo": "Tênis",
 		"marca": "Anacapri",
 		"genero": "Feminino",
@@ -2814,8 +2814,8 @@
 	},
 	{
 		"id": "UzZ8lq37UZcDmYot57SR5",
-		"nome": "Sandália crocs tulum toe post black/tan - Preto",
-		"tipo": "",
+		"nome": "Sandália Crocs Tulum Toe Post",
+		"tipo": "Crocs",
 		"marca": "Crocs",
 		"genero": "Feminino",
 		"preco": 279.0,
@@ -2843,8 +2843,8 @@
 	},
 	{
 		"id": "VgQBHe4rB2sBamQED9jrX",
-		"nome": "TÊNIS OLYMPIKUS LUME - Marinho+Vermelho",
-		"tipo": "",
+		"nome": "TÊNIS OLYMPIKUS LUME",
+		"tipo": "Tênis",
 		"marca": "Olympikus",
 		"genero": "Unissex",
 		"preco": 189.99,
@@ -2872,7 +2872,7 @@
 	},
 	{
 		"id": "vNWfyxEcGtTqTvhxE-FmR",
-		"nome": "Bota Coturno Masculino Couro Cano Curto Cadarço Zíper Casual - Preto",
+		"nome": "Bota Coturno Masculino Couro Cano Curto Cadarço Zíper Casual",
 		"tipo": "Bota",
 		"marca": "Épico",
 		"genero": "Masculino",
@@ -2903,7 +2903,7 @@
 	},
 	{
 		"id": "vq3atSFmj7F8KW59uS44b",
-		"nome": "Sapatênis Pipper Couro Airmove Masculino - Preto",
+		"nome": "Sapatênis Pipper Couro Airmove Masculino",
 		"tipo": "Sapatênis",
 		"marca": "Pipper",
 		"genero": "Masculino",
@@ -2959,8 +2959,8 @@
 	},
 	{
 		"id": "WIKFYbCMofUSw8PxnAPxi",
-		"nome": "Sandalia Barbie Sweet Conforto 22727 Verde - Verde",
-		"tipo": "",
+		"nome": "Sandalia Barbie Sweet Conforto",
+		"tipo": "Crocs",
 		"marca": "Zaxy",
 		"genero": "Feminino",
 		"preco": 81.84,
@@ -2989,7 +2989,7 @@
 	},
 	{
 		"id": "WtlYgB1etM6huhpL0WteZ",
-		"nome": "Tênis Adidas Galaxy 5 Masculino - Preto+verde",
+		"nome": "Tênis Adidas Galaxy 5 Masculino",
 		"tipo": "Tênis",
 		"marca": "Adidas",
 		"genero": "Masculino",
@@ -3020,8 +3020,8 @@
 	},
 	{
 		"id": "wvQk3BQZeBFpt2ZIsOXmZ",
-		"nome": "Babuche Feminina Perfuros Lisa Conforto Dia a Dia Macio Leve - Preto",
-		"tipo": "",
+		"nome": "Babuche Feminina Perfuros Lisa",
+		"tipo": "Crocs",
 		"marca": "TORRENEZI",
 		"genero": "Feminino",
 		"preco": 229.8,
@@ -3047,7 +3047,7 @@
 	},
 	{
 		"id": "WzxP2HvHI6hfSxdScT31T",
-		"nome": "Tênis Adidas Puremotion Adapt - Preto+Rosa",
+		"nome": "Tênis Adidas Puremotion Adapt",
 		"tipo": "Tênis",
 		"marca": "Adidas",
 		"genero": "Feminino",
@@ -3076,7 +3076,7 @@
 	},
 	{
 		"id": "xEvs32WnCfF2DtXKPmSyB",
-		"nome": "Bota Dakota de Cano Curto - Castanha",
+		"nome": "Bota Dakota de Cano Curto",
 		"tipo": "Bota",
 		"marca": "Dakota",
 		"genero": "Feminino",
@@ -3107,7 +3107,7 @@
 	},
 	{
 		"id": "xMBJJBjyOsCt6bV7Orccv",
-		"nome": "Bota Feminina Salto Baixo Cano Curto Botinha Macia Confortavel - Marrom",
+		"nome": "Bota Feminina Salto Baixo Cano Curto Botinha Macia Confortavel",
 		"tipo": "Bota",
 		"marca": "REF",
 		"genero": "Feminino",
@@ -3132,7 +3132,7 @@
 	},
 	{
 		"id": "XoAXTpafAWEnJQtEANz0a",
-		"nome": "Tênis Adidas Grand Court Base Beyond Masculino - Branco+Vermelho",
+		"nome": "Tênis Adidas Grand Court Base Beyond Masculino",
 		"tipo": "Tênis",
 		"marca": "Adidas",
 		"genero": "Masculino",
@@ -3160,7 +3160,7 @@
 	},
 	{
 		"id": "xrCTso9gb4mHRK-fiFQPE",
-		"nome": "Tênis Asics Raiden 3 Masculino - Preto+Grafite",
+		"nome": "Tênis Asics Raiden 3 Masculino",
 		"tipo": "Tênis",
 		"marca": "Asics",
 		"genero": "Masculino",
@@ -3213,7 +3213,7 @@
 		"descricao": "Para caminhadas e corridas leves, treinos de musculação ou até mesmo no dia a dia aposte no conforto e qualidade do Tênis Nike Masculino Revolution 6 Next Nature para completar seu visual. Com cabedal produzido em material macio, o modelo possui calcanhar acolchoado e fecho em cadarço para ajuste personalizado e firme. A entressola em EVA proporciona amortecimento leve e o solado emborrachado garante aderência e tração em diferentes tipos de pisos. Já o visual moderno agrega valor e deixa seu estilo autêntico e despojado. Aproveite!",
 		"avaliacao_media": 4.6,
 		"avaliacao_qtd": 1105,
-		"desconto": 0
+		"desconto": 40
 	},
 	{
 		"id": "YArLh4NF7K7KWCsdko48_",
@@ -3244,7 +3244,7 @@
 	},
 	{
 		"id": "YbnshlnGxu6h1WIvkFyzK",
-		"nome": "Tênis Nike Downshifter 11 ",
+		"nome": "Tênis Nike Downshifter 11",
 		"tipo": "Tênis",
 		"marca": "Nike",
 		"genero": "Masculino",
@@ -3275,8 +3275,8 @@
 	},
 	{
 		"id": "yMfuWxmTsvPSck7zHhdSV",
-		"nome": "BOTA MISSISSIPI BICO FINO - Preto",
-		"tipo": "",
+		"nome": "Bota Mississipi Bicp Fino",
+		"tipo": "Bota",
 		"marca": "Mississipi",
 		"genero": "Feminino",
 		"preco": 229.9,
@@ -3305,7 +3305,7 @@
 	},
 	{
 		"id": "_QUSJU_PfnQpdRS_ii1tu",
-		"nome": "Chuteira Society Adidas Copa Sense 4 - Preto",
+		"nome": "Chuteira Society Adidas Copa Sense 4",
 		"tipo": "Chuteira",
 		"marca": "Adidas",
 		"genero": "Masculino",
