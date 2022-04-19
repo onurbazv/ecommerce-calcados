@@ -4,8 +4,8 @@ import ModalContext from "./context/ModalContext";
 import Modal from "./components/Modal";
 
 import Navbar from "./components/Navbar";
-import Home from "./pages/Home"
 
+import Home from "./pages/Home"
 
 function App() {
 	const [isModalOpen, setIsModalOpen] = useState(false)
@@ -32,7 +32,6 @@ function App() {
 					<Navbar />
 					<Routes>
 						<Route path="/" element={<Home />} />
-						<Route path="/teste" element={<div>HELLO WORLD</div>} />
 					</Routes>
 				</div>
 			</ModalContext.Provider>

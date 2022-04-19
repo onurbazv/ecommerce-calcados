@@ -1,6 +1,8 @@
 import { initializeApp } from 'firebase/app'
-import { getFirestore } from 'firebase/firestore'
+import { getFirestore, collection, doc, setDoc } from 'firebase/firestore'
 
+
+// Initialization & Configuration
 const firebaseConfig = {
     apiKey: "AIzaSyADrZEgp5k-QgSBmoZPQjs1EX06RlAfu9I",
     authDomain: "netshoes-clone.firebaseapp.com",
@@ -13,3 +15,26 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig)
 
 const db = getFirestore(app)
+
+
+// Usable Functions
+
+export const createProduct = async (product) => {
+    return await setDoc(doc(db, "produtos", product.id), {
+        nome: product.nome,
+        tipo: product.tipo,
+        marca: product.marca,
+        genero: product.genero,
+        preco: product.preco,
+        tamanhos: JSON.stringify(product.tamanhos),
+        indicacao: product.indicacao,
+        material: product.material,
+        pisada: product.pisada,
+        categoria: product.categoria,
+        origem: product.origem,
+        descricao: product.descricao,
+        avaliacao_media: product.avaliacao_media,
+        avaliacao_qtd: product.avaliacao_qtd,
+        desconto: product.desconto
+    })
+}
