@@ -6,6 +6,7 @@ import Modal from "./components/Modal";
 import Navbar from "./components/Navbar";
 
 import Home from "./pages/Home"
+import Login from "./pages/Login"
 
 function App() {
 	const [isModalOpen, setIsModalOpen] = useState(false)
@@ -24,6 +25,7 @@ function App() {
 				}
 			}}>
 				<div
+					className="min-h-screen"
 					style={{
 						background: "url('img/bg75.png'), linear-gradient(40deg, rgba(231,229,228,1) 0%, rgba(214,211,209,1) 100%)",
 						backgroundBlendMode: "overlay",
@@ -32,6 +34,7 @@ function App() {
 					<Navbar />
 					<Routes>
 						<Route path="/" element={<Home />} />
+						<Route path="/login" element={<Login />} />
 					</Routes>
 				</div>
 			</ModalContext.Provider>
@@ -42,12 +45,5 @@ function App() {
 		</>
 		);
 }
-
-// <blend-mode> = normal | 
-// (en-US) multiply | (en-US) screen | (en-US) overlay | 
-// (en-US) darken | (en-US) lighten | (en-US) color-dodge | 
-// (en-US) color-burn | (en-US) hard-light | (en-US) soft-light | 
-// (en-US) difference | (en-US) exclusion | (en-US) hue | 
-// (en-US) saturation | (en-US) color | (en-US) luminosity
 
 export default App;

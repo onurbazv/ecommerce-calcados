@@ -3,9 +3,8 @@ import { Link } from 'react-router-dom'
 import { ICON_SEARCH, ICON_CART, ICON_USER, ICON_MENU, ICON_CLOSE } from '../constants/icons'
 
 const Navbar = () => {
-    const [submenuOpen, setSubmenuOpen] = useState(false)
-
-    const toggleSubmenu = () => setSubmenuOpen(prev => !prev)
+    const [categoriasMenuOpen, setCategoriasMenuOpen] = useState(false)
+    const toggleCategoriasMenu = () => setCategoriasMenuOpen(prev => !prev)
 
     return (
         <nav className="w-full p-6 bg-stone-300 relative">
@@ -20,13 +19,13 @@ const Navbar = () => {
                     </div>
                 </div>
                 <div className="flex gap-6">
-                    <div className="flex cursor-pointer" onClick={toggleSubmenu}>
+                    <div className="flex cursor-pointer" onClick={toggleCategoriasMenu}>
                         {ICON_MENU}
                         <div className="ml-2 text-lg font-medium">
                             Categorias
                         </div>
                     </div>
-                    <Link className="font-medium text-lg flex items-center" to="/">
+                    <Link className="font-medium text-lg flex items-center" to="/login">
                         {ICON_USER} Entrar
                     </Link> 
                     <Link className="font-semibold relative" to="/teste">
@@ -37,8 +36,8 @@ const Navbar = () => {
                     </Link>
                 </div>
             </div>
-            {/* Categorias Submenu */}
-            {submenuOpen && <div className="w-full h-screen bg-black/40 absolute left-0 bottom-0 translate-y-full z-20">
+            {/* Categorias Menu */}
+            {categoriasMenuOpen && <div className="w-full h-screen bg-black/40 absolute left-0 bottom-0 translate-y-full z-20">
                 <div className="bg-white w-1/2 p-12 mx-auto rounded-b-xl flex text-center font-medium text-lg relative">
                     <div className="w-1/2">
                         <p className="text-2xl font-semibold mb-2">Masculino</p>
@@ -56,12 +55,11 @@ const Navbar = () => {
                             <li className="mb-1">Botas</li>
                         </ul>
                     </div>
-                    <div className="absolute top-4 right-4 cursor-pointer" onClick={toggleSubmenu}>
+                    <div className="absolute top-4 right-4 cursor-pointer" onClick={toggleCategoriasMenu}>
                         {ICON_CLOSE}
                     </div>
                 </div>
-            </div>}
-            
+            </div>}        
         </nav>
     )
 }
