@@ -17,7 +17,7 @@ const app = initializeApp(firebaseConfig)
 const db = getFirestore(app)
 
 
-// Usable Functions
+// Firestore Functions
 
 export const createProduct = async (product) => {
     return await setDoc(doc(db, "produtos", product.id), {
@@ -38,3 +38,6 @@ export const createProduct = async (product) => {
         desconto: product.desconto
     })
 }
+
+// Auth Functions
+
