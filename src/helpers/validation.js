@@ -10,10 +10,17 @@ export const isValidNumber = (string) => {
 
 export const isValidPhoneInput = (string) => {
     let chars = "0123456789 ()"
+	let numbers = '0123456789'
     return string.split("").filter(ch => chars.includes(ch)).length === string.length
 }
 
-export const isValidCPF = (cpf) => {	
+const isValidPhone = (string) => {
+    let chars = "0123456789 ()"
+	let numbers = '0123456789'
+    return string.split("").filter(ch => chars.includes(ch)).length === string.length && string.split("").filter(ch => numbers.includes(ch)).length >= 10
+}
+
+const isValidCPF = (cpf) => {	
 	cpf = cpf.replace(/[^\d]+/g,'');	
 	if(cpf === '') return false;	
 	// Elimina CPFs invalidos conhecidos	
@@ -48,4 +55,26 @@ export const isValidCPF = (cpf) => {
 	if (rev !== parseInt(cpf.charAt(10)))
 		return false;		
 	return true;   
+}
+
+
+export const validateForm = (data) => {
+	const { cep, logradouro, numero, bairro, estado, cidade } = data.endereco
+	const { dia, mes, ano } = data.data_de_nascimento
+	const invalidFields = []
+	if (data.nome.trim() === "") invalidFields.push("Nome")
+	if (data.sobrenome.trim() === "") invalidFields.push("Sobrenome")
+	if (data.sexo === "") invalidFields.push("Sexo")
+	if (!isValidEmail(data.email)) invalidFields.push("Email")
+	if (!isValidCPF(data.cpf)) invalidFields.push("CPF")
+	if (!isValidPhone(data.telefone)) invalidFields.push("Telefone")
+	if (!data.senha.length >= 6) invalidFields.push("Senha")
+	if (dia === "" || mes === "" || ano === "") invalidFields.push("Data de Nascimento")
+	if (cep.length !== 8) invalidFields.push("CEP")
+	if (logradouro.trim() === "") invalidFields.push("Logradouro")
+	if (numero.trim() === "") invalidFields.push("Número")
+	if (bairro.trim() === "") invalidFields.push("Bairro")
+	if (estado === "") invalidFields.push("Estado")
+	if (cidade.trim() === "") invalidFields.push("Cidade")
+	return invalidFields
 }

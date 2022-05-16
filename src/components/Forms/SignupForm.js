@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import DefaultInput from './Inputs/DefaultInput'
 import SelectInput from './Inputs/SelectInput'
-import { isValidPhoneInput, isValidCPF, isValidNumber } from '../../helpers/validation'
+import { isValidPhoneInput, isValidNumber, validateForm } from '../../helpers/validation'
 import { dias, meses, anos, estados } from '../../constants/select_options'
 
 const emptyFormData = {
@@ -25,7 +25,8 @@ const emptyFormData = {
         estado: "",
         cidade: "",
         referencia: ""
-    }
+    },
+    error_msg: ""
 }
 
 const SignupForm = ({preFill}) => {
@@ -101,7 +102,15 @@ const SignupForm = ({preFill}) => {
 
     const handleSubmit = (event) => {
         event.preventDefault()
-        console.log(formData)
+        const formErrors = validateForm(formData)
+        if (formErrors.length > 0) {
+            setFormData(prev => ({
+                ...prev,
+                error_msg: `Campos Invalidos: ${formErrors.join(", ")}.`
+            }))
+        } else {
+            // submit form to backend
+        }
     }
 
     return (
@@ -278,9 +287,16 @@ const SignupForm = ({preFill}) => {
                         value={formData.senha}/>
                 </div>
             </div>
-            <button className="bg-orange-300 px-8 py-2 hover:bg-orange-400 font-medium rounded-lg ml-auto block">Submit</button>
+            <div className="flex mt-6">
+                {formData.error_msg !== "" && (
+                    <p className="text-red-600 w-fit font-medium">{formData.error_msg}</p>
+                )}
+                <button className="bg-stone-200 px-12 py-4 hover:bg-stone-300 font-medium rounded-lg ml-auto block">PROSSEGUIR</button>
+            </div>
         </form>
     )
 }
+
+// bg-stone-200 shadow-md rounded-lg hover:bg-stone-300 cursor-pointer
 
 export default SignupForm
