@@ -10,7 +10,6 @@ export const isValidNumber = (string) => {
 
 export const isValidPhoneInput = (string) => {
     let chars = "0123456789 ()"
-	let numbers = '0123456789'
     return string.split("").filter(ch => chars.includes(ch)).length === string.length
 }
 

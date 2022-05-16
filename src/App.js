@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Routes, Route } from 'react-router-dom'
+import UserContext from "./context/UserContext"
 import ModalContext from "./context/ModalContext";
 import Modal from "./components/Modal";
 
@@ -12,8 +13,15 @@ function App() {
 	const [isModalOpen, setIsModalOpen] = useState(false)
 	const [modalComponent, setModalComponent] = useState(null)
 
+	// now we need to create a listener (onAuthStateChanged) and change the user object every time auth changes
+	// the resulting object will include data from AUTH (email, uid) and from FIRESTORE (user data)
+	const user = {
+		nome: "Bruno",
+		idade: 29
+	}
+
 	return (
-		<>
+		<UserContext.Provider value={user}>
 			<ModalContext.Provider value={{
 				close: () => {
 					setModalComponent(null)
@@ -42,7 +50,7 @@ function App() {
 				setModalComponent(null)
 				setIsModalOpen(false)
 			}} />
-		</>
+		</UserContext.Provider>
 		);
 }
 

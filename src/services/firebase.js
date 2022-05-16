@@ -1,21 +1,22 @@
 import { initializeApp } from 'firebase/app'
-import { getFirestore, collection, doc, setDoc } from 'firebase/firestore'
-
+import { getFirestore, collection, doc, setDoc, addDoc } from 'firebase/firestore'
+import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, onAuthStateChanged } from 'firebase/auth'
 
 // Initialization & Configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyADrZEgp5k-QgSBmoZPQjs1EX06RlAfu9I",
+    apiKey: "AIzaSyBH3eB7vJJIwSYekk4qQwUHo8hCYInP_Go",
     authDomain: "netshoes-clone.firebaseapp.com",
     projectId: "netshoes-clone",
     storageBucket: "netshoes-clone.appspot.com",
     messagingSenderId: "107651677486",
     appId: "1:107651677486:web:2b17fcaa5918ea6c28cebf"
-}
+  };
 
 const app = initializeApp(firebaseConfig)
 
 const db = getFirestore(app)
 
+const auth = getAuth(app);
 
 // Firestore Functions
 
@@ -41,3 +42,64 @@ export const createProduct = async (product) => {
 
 // Auth Functions
 
+export const createNewUser = (user) => {
+    createUserWithEmailAndPassword(auth, user.email, user.senha).then((credentials) => {
+        console.log(credentials)
+        addDoc(collection(db, "usuarios"), {
+            auth_id: credentials.user.uid,
+            email: user.email,
+            telefone: user.telefone,
+            nome: user.nome,
+            sobrenome: user.sobrenome,
+            sexo: user.sexo,
+            cpf: user.cpf,
+            data_de_nascimento: JSON.stringify(user.data_de_nascimento),
+            enderecos: [JSON.stringify(user.endereco)]
+        })
+    }).catch((err) => {
+        console.log(err.message)
+    })
+}
+
+export const simpleCreateUser = (email, password) => {
+    createUserWithEmailAndPassword(auth, email, password)
+        .then((userCredential) => {
+            
+        })
+        .catch((error) => {
+            const what = {...error}
+            console.log(what)
+            console.log(error)
+            console.log(error.message)
+            // ..
+        });
+}
+
+
+
+
+
+// const emptyFormData = {
+//     telefone: "",
+//     email: "",
+//     senha: "",
+//     nome: "",
+//     sobrenome: "",
+//     sexo: "",
+//     cpf: "",
+//     data_de_nascimento: {
+//         dia: "",
+//         mes: "",
+//         ano: ""
+//     }, endereco: {
+//         cep: "",
+//         logradouro: "",
+//         numero: "",
+//         complemento: "",
+//         bairro: "",
+//         estado: "",
+//         cidade: "",
+//         referencia: ""
+//     },
+//     error_msg: ""
+// }

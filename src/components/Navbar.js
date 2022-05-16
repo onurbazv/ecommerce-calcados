@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useContext } from 'react'
 import { Link } from 'react-router-dom'
 import { ICON_SEARCH, ICON_CART, ICON_USER, ICON_MENU, ICON_CLOSE } from '../constants/icons'
 
@@ -9,7 +9,7 @@ const Navbar = () => {
     return (
         <nav className="w-full p-6 bg-stone-300 relative">
             <div className="flex justify-between items-center gap-12 mx-auto max-w-screen-xl">
-                <Link className="font-extrabold text-xl tracking-tight" to="/">InternetShoes</Link>
+                <Link className="font-display font-extrabold italic text-2xl" to="/">INTERNETSHOES</Link>
                 <div className="w-full relative">
                     <input
                         className="rounded-full w-full py-2 px-3 font-semibold text-sm"

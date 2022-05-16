@@ -1,8 +1,10 @@
 import { useState } from 'react'
+import { createNewUser } from '../../services/firebase'
 import DefaultInput from './Inputs/DefaultInput'
 import SelectInput from './Inputs/SelectInput'
 import { isValidPhoneInput, isValidNumber, validateForm } from '../../helpers/validation'
 import { dias, meses, anos, estados } from '../../constants/select_options'
+
 
 const emptyFormData = {
     telefone: "",
@@ -33,7 +35,7 @@ const SignupForm = ({preFill}) => {
     const [formData, setFormData] = useState({...emptyFormData, email: preFill})
 
     const handleChange = (event) => {
-        const { name, type, checked, value } = event.target
+        const { name, value } = event.target
         if (name.includes("@")) {
             const [target, sub] = name.split("@")
             if (sub === "cep") {
@@ -110,6 +112,7 @@ const SignupForm = ({preFill}) => {
             }))
         } else {
             // submit form to backend
+            createNewUser(formData)
         }
     }
 
