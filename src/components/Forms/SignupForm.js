@@ -1,8 +1,8 @@
 import { useState } from 'react'
 import DefaultInput from './Inputs/DefaultInput'
 import SelectInput from './Inputs/SelectInput'
-import { isValidNumber } from '../../helpers/validation'
-import { optionsDia, optionsMes, optionsAno } from '../../constants/select_options'
+import { isValidPhoneInput, isValidCPF, isValidNumber } from '../../helpers/validation'
+import { dias, meses, anos, estados } from '../../constants/select_options'
 
 const emptyFormData = {
     telefone: "",
@@ -35,20 +35,69 @@ const SignupForm = ({preFill}) => {
         const { name, type, checked, value } = event.target
         if (name.includes("@")) {
             const [target, sub] = name.split("@")
-            setFormData(prev => ({
-                ...prev,
-                [target] : {
-                    ...formData[target],
-                    [sub]: value,
+            if (sub === "cep") {
+                if (isValidNumber(value) && value.length < 9) {
+                    setFormData(prev => ({
+                        ...prev,
+                        endereco: {
+                            ...prev.endereco,
+                            cep: value
+                        }
+                    }))
                 }
-            }))
+            } else {
+                setFormData(prev => ({
+                    ...prev,
+                    [target] : {
+                        ...formData[target],
+                        [sub]: value,
+                    }
+                }))
+            }
         } else {
-            setFormData(prev => ({
-                ...prev,
-                [name]: value
-            }))
+            // ifs for edge cases such as CPF, TELEFONE (22) 988146171
+            if (name === "telefone") {
+                let matches = value.match(/([0-9])\w+/g)
+                let matchStr = ""
+                if (matches !== null) {
+                    matchStr = matches.join("")
+                }
+                if (isValidPhoneInput(value) && matchStr.length < 12) {
+                    let telefoneString = ""
+                    if (value.length === 1 && value !== "(") {
+                        telefoneString = `(${value}`
+                    } else if (value.length === 4 && value.split("")[3] !== ")") {
+                        let chars = value.split("")
+                        chars.splice(3, 0, ")")
+                        chars.splice(4, 0, " ")
+                        telefoneString = chars.join("")
+                    } else {
+                        telefoneString = value
+                    }
+                    setFormData(prev => ({
+                        ...prev,
+                        telefone: telefoneString
+                    }))
+                }
+            } else if (name === "cpf") {
+                if (isValidNumber(value)) {
+                    setFormData(prev => ({
+                        ...prev,
+                        cpf: value
+                    }))
+                }
+            } else {
+                setFormData(prev => ({
+                    ...prev,
+                    [name]: value
+                }))
+            }
         }
     } 
+
+    // Make an effect for when CEP changes, check if length is max_length (9) and fetch results from CEP API
+    // then fill other fields with data fetched and lock them
+    // clear fields if CEP changes and fields are filled
 
     const handleSubmit = (event) => {
         event.preventDefault()
@@ -59,20 +108,23 @@ const SignupForm = ({preFill}) => {
         <form 
             className="h-full mx-auto max-w-screen-xl my-16 p-16 bg-white rounded-lg"
             onSubmit={handleSubmit}>
+            <div className="flex items-start justify-between mb-4">
+                <h1 className="text-3xl border-b border-stone-300 font-medium pb-2">Cadastro de Usuário</h1>
+                <p className="text-sm">* Campos Obrigatórios</p>
+            </div>
             <div className="grid grid-cols-5">
                 <div className="border-r border-stone-400 col-span-3 pr-16 flex flex-col gap-4">
-                    <h2 className="text-lg font-medium mb-2">Sobre você</h2>
+                    <h2 className="text-lg font-medium mt-4 mb-1">Sobre você</h2>
+                    {/* Nome + Sobrenome + Sexo */}
                     <div className="grid grid-cols-3 gap-4">
                         <DefaultInput 
                             required={true}
-                            type="text"
                             labelText="* Nome"
                             name="nome"
                             handleChange={handleChange}
                             value={formData.nome} />
                         <DefaultInput 
                             required={true}
-                            type="text"
                             labelText="* Sobrenome"
                             name="sobrenome"
                             handleChange={handleChange}
@@ -83,13 +135,15 @@ const SignupForm = ({preFill}) => {
                             </label>
                             <div className="mt-4">
                                 <input
+                                    required
                                     className="mr-2 scale-150" 
                                     type="radio"
                                     name="sexo"
                                     value="Feminino"
                                     onChange={handleChange}/>
-                                <label className="mr-4">Feminino</label>
+                                <label className="mr-3">Feminino</label>
                                 <input
+                                    required
                                     className="mr-2 scale-150" 
                                     type="radio"
                                     name="sexo"
@@ -99,36 +153,111 @@ const SignupForm = ({preFill}) => {
                             </div>
                         </div>
                     </div>
-                    <div className="grid grid-cols-2 gap-4">
+                    {/* Data de Nascimento + CPF */}
+                    <div className="grid grid-cols-2 gap-4 items-end">
                         <div className="relative">
                             <label className="text-sm text-stone-500 absolute -translate-y-1/2">
                                 * Data de Nascimento
                             </label>
-                            <div className="mt-4 grid grid-cols-3 gap-4">
-                                <SelectInput 
-                                    options={optionsDia} 
+                            <div className="grid grid-cols-3 gap-4">
+                                <SelectInput
+                                    required={true}
+                                    options={dias} 
                                     value={formData.data_de_nascimento.dia}
                                     name="data_de_nascimento@dia"
                                     handleChange={handleChange}/>
                                 <SelectInput 
-                                    options={optionsMes} 
+                                    required={true}
+                                    options={meses} 
                                     value={formData.data_de_nascimento.mes}
                                     name="data_de_nascimento@mes"
                                     handleChange={handleChange}/>
                                 <SelectInput 
-                                    options={optionsAno} 
+                                    required={true}
+                                    options={anos} 
                                     value={formData.data_de_nascimento.ano}
                                     name="data_de_nascimento@ano"
                                     handleChange={handleChange}/>
                             </div>
                         </div>
+                        <DefaultInput
+                            required={true}
+                            labelText="* CPF"
+                            name="cpf"
+                            handleChange={handleChange}
+                            value={formData.cpf}/>
+                    </div>
+                    <h2 className="text-lg font-medium mt-4 mb-1">Seu Endereço</h2>
+                    {/* CEP + Logradouro */}
+                    <div className="grid grid-cols-3 gap-4">
+                        <DefaultInput
+                            required={true}
+                            labelText="* CEP"
+                            name="endereco@cep"
+                            handleChange={handleChange}
+                            value={formData.endereco.cep}/>
+                        <div className="col-span-2">
+                            <DefaultInput 
+                                required={true}
+                                labelText="* Logradouro"
+                                name="endereco@logradouro"
+                                handleChange={handleChange}
+                                value={formData.endereco.logradouro}/>
+                        </div>
+                    </div>
+                    {/* Numero + Complemento + Bairro */}
+                    <div className="grid grid-cols-4 gap-4">
+                        <DefaultInput 
+                            required={true}
+                            labelText="* Número"
+                            name="endereco@numero"
+                            handleChange={handleChange}
+                            value={formData.endereco.numero}/>
+                        <DefaultInput 
+                            required={false}
+                            labelText="Complemento"
+                            name="endereco@complemento"
+                            handleChange={handleChange}
+                            value={formData.endereco.complemento}/>
+                        <DefaultInput
+                            required={true}
+                            wrapperStyles="col-span-2"
+                            labelText="* Bairro"
+                            name="endereco@bairro"
+                            handleChange={handleChange}
+                            value={formData.endereco.bairro}/>
+                    </div>
+                    {/* Estado + Cidade + Referencia */}
+                    <div className="grid grid-cols-3 gap-4 items-end">
+                        <div className="relative">
+                            <label className="text-sm text-stone-500 absolute -translate-y-1/2">
+                                * Estado
+                            </label>
+                            <SelectInput
+                                required={true}
+                                options={estados} 
+                                value={formData.endereco.estado}
+                                name="endereco@estado"
+                                handleChange={handleChange}/>
+                        </div>
+                        <DefaultInput 
+                            required={true}
+                            labelText="* Cidade"
+                            name="endereco@cidade"
+                            handleChange={handleChange}
+                            value={formData.endereco.cidade}/>
+                        <DefaultInput 
+                            required={false}
+                            labelText="Referência"
+                            name="endereco@referencia"
+                            handleChange={handleChange}
+                            value={formData.endereco.referencia}/>
                     </div>
                 </div>
                 <div className="col-span-2 pl-16 flex flex-col gap-4">
-                    <h2 className="text-lg font-medium mb-2">Sobre sua conta</h2>
+                    <h2 className="text-lg font-medium mt-4 mb-1">Sobre sua conta</h2>
                     <DefaultInput 
                         required={true}
-                        type="text"
                         labelText="* Telefone"
                         name="telefone"
                         handleChange={handleChange}
@@ -144,12 +273,11 @@ const SignupForm = ({preFill}) => {
                         required={true}
                         type="password"
                         labelText="* Senha"
-                        name="password"
+                        name="senha"
                         handleChange={handleChange}
-                        value={formData.password}/>
+                        value={formData.senha}/>
                 </div>
             </div>
-            <p className="text-sm mt-4">* Campos Obrigatórios</p>
             <button className="bg-orange-300 px-8 py-2 hover:bg-orange-400 font-medium rounded-lg ml-auto block">Submit</button>
         </form>
     )
