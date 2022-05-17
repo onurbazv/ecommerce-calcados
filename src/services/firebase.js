@@ -1,16 +1,9 @@
 import { initializeApp } from 'firebase/app'
 import { getFirestore, collection, doc, setDoc, addDoc } from 'firebase/firestore'
 import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, onAuthStateChanged } from 'firebase/auth'
+import firebaseConfig from '../constants/firebaseConfig'
 
 // Initialization & Configuration
-const firebaseConfig = {
-    apiKey: "AIzaSyBH3eB7vJJIwSYekk4qQwUHo8hCYInP_Go",
-    authDomain: "netshoes-clone.firebaseapp.com",
-    projectId: "netshoes-clone",
-    storageBucket: "netshoes-clone.appspot.com",
-    messagingSenderId: "107651677486",
-    appId: "1:107651677486:web:2b17fcaa5918ea6c28cebf"
-  };
 
 const app = initializeApp(firebaseConfig)
 
